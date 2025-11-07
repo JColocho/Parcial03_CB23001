@@ -9,7 +9,7 @@
     <div>
         <nav style="margin-bottom: 10px;">
             <a href="{{ route('ejercicio1') }}">Ejecicio 1</a>
-            <a href="">Ejercicio 2</a>
+            <a href="{{ route('ejercicio3') }}">Ejercicio 3</a>
         </nav>
     </div>
     <main>

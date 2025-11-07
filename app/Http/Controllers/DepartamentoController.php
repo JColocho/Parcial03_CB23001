@@ -34,9 +34,9 @@ class DepartamentoController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Departamento $departamento)
+    public function show(Departamento $departamentos)
     {
-        //
+        return route('departamentos.show',$departamentos);
     }
 
     /**
