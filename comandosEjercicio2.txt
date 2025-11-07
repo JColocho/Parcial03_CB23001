@@ -1,0 +1,20 @@
+creacion de migraciones y base de datos
+php artisan migrate
+
+migraciones de las tablas departamentos
+php artisan make:migration <create_departamentos_table>
+
+migraciones de las tablas tipo_clientes
+php artisan make:migration <create_tipo_clientes_table>
+
+migraciones de las tablas clientes
+php artisan make:migration <create_clientes_table>
+
+creamos las tablas
+php artisan migrate
+
+creacion de modelos, factory y seeder
+php artisan make:model <nombre> -mfs 
+
+poblar las tablas
+php artisan db:seed --class=<nombreClaseSeeder>

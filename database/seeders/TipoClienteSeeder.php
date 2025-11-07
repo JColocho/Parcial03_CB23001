@@ -1,0 +1,18 @@
+<?php
+
+namespace Database\Seeders;
+
+use App\Models\Tipo_cliente;
+use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use Illuminate\Database\Seeder;
+
+class TipoClienteSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     */
+    public function run(): void
+    {
+        Tipo_cliente::factory()->count(10)->create();  
+    }
+}

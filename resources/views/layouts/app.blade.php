@@ -6,7 +6,14 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>hola desde app</h1>
-    @yield('content')
+    <div>
+        <nav>
+            <a href="">Ejecicio 1</a>
+            <a href="">Ejercicio 2</a>
+        </nav>
+    </div>
+    <main>
+        @yield('content')
+    </main>
 </body>
 </html>
