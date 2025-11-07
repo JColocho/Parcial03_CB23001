@@ -7,8 +7,8 @@
 </head>
 <body>
     <div>
-        <nav>
-            <a href="">Ejecicio 1</a>
+        <nav style="margin-bottom: 10px;">
+            <a href="{{ route('ejercicio1') }}">Ejecicio 1</a>
             <a href="">Ejercicio 2</a>
         </nav>
     </div>
